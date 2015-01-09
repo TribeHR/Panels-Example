@@ -81,7 +81,7 @@ if (empty($requestingUser)) {
 <html>
 <head>
 	<!-- Automatically enable use of TribeHR-consistent styling by including this css file! -->
-	<link rel="stylesheet" href="http://media.tribehr.com/partners/panels/tribehr_panel_styles.css"></link>
+	<link rel="stylesheet" href="https://media.tribehr.com/partners/panels/tribehr_panel_styles.css"></link>
 	<style>
 	html, body, #map-canvas { 
 		height: 400px; 
