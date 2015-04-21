@@ -28,7 +28,7 @@ The file "config.php" is found right in the root directory. Here you'll set up e
  Given to you by TribeHR along with your Integration ID. Enter it as a string.
 
  - ###### TRIBEHR_LOOKUP_API_ENDPOINT
- The base URL used for Lookup API calls. By default, this points to TribeHR's production environment. For testing, you might want to create a simple web app to accept your queries so that you can look at what the sample app is sending out, or control the different possible requests and responses that TribeHR can generate. If you do, you can change the endpoint here to map to your mock system instead.
+ The base URL used for Lookup API calls. By default, this points to TribeHR's sandbox development environment. Once your panel has been approved, you should use the commented-out production endpoint. For testing, you might want to create a simple web app to accept your queries so that you can look at what the sample app is sending out, or control the different possible requests and responses that TribeHR can generate. If you do, you can change the endpoint here to map to your mock system instead.
 
  - ###### REQUEST_LOGGING_ENABLED
  If you set this to _true_ instead of the default _false_, the sample app will begin verbosely logging debug information to the file *logs/request.log*. This will help you follow along with each step, but will pile up very quickly.
